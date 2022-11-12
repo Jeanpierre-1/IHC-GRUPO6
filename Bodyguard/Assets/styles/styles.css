@@ -1,0 +1,189 @@
+/*  General styles          */
+html{
+    font: normal 15px sans-serif; /*tamanio de las letras de toda la pagina*/
+    font-family: 'Abahay Libre',sans-serif; /*tipo de letra de la pagina*/
+    scroll-behavior: smooth !important;
+}
+p{
+    font-family: 'Old Standard TT', sans-serif;
+}
+body{
+    width: 100%; /*tamanio de la pagina*/
+    background-color: #1e1d1d; /* color del fondo de la pagina*/
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: block;
+}
+.container{
+    display: flex;
+    width: 80%;
+    height: 90vh;
+
+}
+.card{
+    display: block;
+}
+.btn_call_to_action{
+    padding: 0.3em 1em; /*tamanio del button*/
+    border-radius: 54px;
+    align-self: center;
+    text-align: center;
+    background-color: #dc751d; /*color del button*/
+    cursor: pointer;
+    text-decoration: none;
+    color: black; /*color de las letras del button*/
+}
+
+.section-title{
+    background-color:black; /*encabesado de las paginas*/
+    color: #dc751d; /*Color de letras del encabesado de las paginas*/
+    padding: 1em 0;
+    margin: 0;
+}
+
+/*  Header navigation       */
+#header-placeholder{
+    width: 98vw;
+    background-color:black; /* color encabesado primera pagina*/
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 1vh 1vw;
+    justify-content: space-between;
+}
+#header-placeholder .logo{
+    width: 20%;
+    display: flex;
+    margin: auto 0;
+}
+#header-placeholder .logo img{
+    width: 5em;
+}
+#header-placeholder .logo h1{
+    color: #dc751d;    /*Color de la letra del logo*/
+    margin: auto 0;
+}
+#header-placeholder nav{
+    width: 60%;
+    display: flex;
+    text-transform: uppercase;
+}
+#header-placeholder nav li{
+    list-style: none;
+    margin: auto;
+}
+#header-placeholder nav li a{
+    color: #ffffff;   /*color de las letras de la barra de opciones total*/
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*  Section Inicio     */
+#Inicio{
+    display: block;
+    width: 100%;
+}
+#Inicio .container{
+    margin: auto;
+}
+#header-placeholder nav li b{
+    color: #dc751d;   /*color de la letra de barra inicio*/
+    text-decoration: none;
+    cursor: pointer;
+}
+#Inicio img{
+    width: 71%;
+    display: block;
+}
+.card{
+    width: 35%;
+    color: white;
+    height: fit-content;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    margin: auto 4%;
+}
+#Inicio .card h3{
+    width: 100%;
+    font-size: 5rem;
+    text-align: initial;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+#Inicio .card .btn_call_to_action{
+    width: fit-content;
+    text-align: center;
+}
+
+/*  Section nosotros    */
+#Nosotros .container{
+    margin: auto; /*mover hacia la derecha*/
+}
+#Nosotros .container img{
+    width: 100%;
+    height: 35%;
+    margin: auto;
+    display: block;
+}
+#Nosotros .card h3{
+    text-align: center;
+    text-decoration: underline;
+}
+#Nosotros .card{
+    background: white;
+    color: black;
+    width: 110%;
+    height: 80%;
+}
+
+/*Section servicios*/
+/*#Servicios .container{
+    position: relative;
+    display: inline-block;
+}
+#Servicios .texto1{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 22px;
+    color: rgb(3, 3, 3);
+}
+#Servicios .texto2{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    font-size: 16px;
+    color: white;
+}*/
+#Servicios .container img{
+    width: 100%;
+    height: 75%;
+    margin: 3rem;
+    padding: 5rem;
+}
+#Servicios .card{
+    width: 110%;
+    margin: 8rem 1rem;
+}
+
+/*Section Testimonios*/
+#Testimonios  .container{
+    margin: auto;
+}
+#Testimonios .container img{
+    width: 35%;
+    height: 80%;
+    margin-left: -15rem;
+    padding: 10rem;
+}
+#Testimonios .card{
+    margin: 12rem 4rem;
+    width: 60%;
+    height: 35%;
+}
+
+
